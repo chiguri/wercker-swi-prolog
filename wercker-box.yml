@@ -1,6 +1,6 @@
 name: swi-prolog
 version: 0.0.1
-description: wercker box for SWI-Prolog
+description: wercker box for SWI-Prolog (stable release)
 type: main
 platform: ubuntu@12.04
 packages:
