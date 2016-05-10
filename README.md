@@ -1,4 +1,4 @@
-# OCaml box
+# SWI-Prolog box
 
 This box provides SWI-Prolog (stable version).
 
