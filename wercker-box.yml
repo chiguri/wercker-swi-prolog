@@ -11,7 +11,7 @@ keywords:
 no-response-timeout: 60
 script: |
     sudo apt-get update -qq -y
-    sudo apt-get install software-properties-common coreutils binutils make
+    sudo apt-get install -y software-properties-common python-software-properties coreutils binutils make
     sudo add-apt-repository --yes ppa:swi-prolog/stable
     sudo apt-get update -qq -y
     sudo apt-get install -y swi-prolog
