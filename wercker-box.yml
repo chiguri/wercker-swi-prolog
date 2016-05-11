@@ -12,7 +12,7 @@ no-response-timeout: 60
 script: |
     sudo apt-get update -qq -y
     sudo apt-get install software-properties-common coreutils binutils make
-    sudo apt-add-repository ppa:swi-prolog/stable
+    sudo add-apt-repository --yes ppa:swi-prolog/stable
     sudo apt-get update -qq -y
     sudo apt-get install -y swi-prolog
     # printing version
